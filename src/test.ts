@@ -14,7 +14,7 @@ test("Testeo la clase User", (t) => {
 
 test("Testeo la clase Product y sus métodos", (t) => {
   const user = new User("marce");
-  const producto = new Product("termo", 500);
+  const producto = new Product("termo", 500, 2);
 
   // El método estatico findProductsBelow no existe
   // tenés que hacer que funcione
